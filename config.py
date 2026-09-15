@@ -1,10 +1,10 @@
 import os
 
 # Gemini Vision (primary icon detection)
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AQ.Ab8RN6L0J3jfuUQ1dZN8mtolbODaMBR-bqzHyrIgdFt5pkT4Eg")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "")
 GEMINI_API_URL = os.environ.get(
     "GEMINI_API_URL",
-    "https://generativelanguage.googleapis.com/v1beta",
+    "",
 )
 GEMINI_MODEL = os.environ.get("GEMINI_MODEL", "gemini-3-flash-preview")
 VISION_TARGET = "Notepad desktop icon"
