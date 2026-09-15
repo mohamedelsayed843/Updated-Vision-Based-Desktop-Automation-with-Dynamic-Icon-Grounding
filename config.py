@@ -17,7 +17,7 @@ VISION_API_TIMEOUT = int(os.environ.get("VISION_API_TIMEOUT", "120"))
 ICON_PATH = "notepad.png"
 
 # Output Directories
-OUTPUT_DIR = r"C:\Users\Mohamed\OneDrive\Desktop\tjm-project"
+OUTPUT_DIR = r"C:\Users\Mohamed\OneDrive\Desktop\project"
 ANNOTATED_DIR = os.path.join(OUTPUT_DIR, "annotated_screenshot")
 
 # API Configuration
